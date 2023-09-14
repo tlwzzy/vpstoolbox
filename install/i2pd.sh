@@ -310,7 +310,7 @@ outbound.length = 1
 keys = ssh-in.dat
 EOF
 cd /etc/i2pd/tunnels.conf.d
-curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/conf/tg-mtproxy.conf
+curl -LO https://raw.githubusercontent.com/tlwzzy/vpstoolbox/master/conf/tg-mtproxy.conf
 cd
     cat > '/lib/systemd/system/i2pd.service' << EOF
 [Unit]
