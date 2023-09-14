@@ -7,7 +7,7 @@
 ## 一键命令
 
 ```bash
-apt-get update && apt-get install sudo curl -y && curl -Ss https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/vps.sh | sudo bash
+apt-get update && apt-get install sudo curl -y && curl -Ss https://raw.githubusercontent.com/tlwzzy/vpstoolbox/master/vps.sh | sudo bash
 ```
 
 > 注: 仅推荐**Debian10**系统。
