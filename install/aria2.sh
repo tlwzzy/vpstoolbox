@@ -4,9 +4,9 @@
 
 #---Author Info---
 ver="1.0.0"
-Author="johnrosen1"
-url="https://johnrosen1.com/"
-github_url="https://github.com/johnrosen1/vpstoolbox"
+Author="tlwzzy"
+url="https://tlwzzy.com/"
+github_url="https://github.com/tlwzzy/vpstoolbox"
 #-----------------
 
 install_aria2(){
@@ -102,7 +102,7 @@ bt-tracker=$trackers_list
 EOF
 clear
 apt-get install nettle-dev libgmp-dev libssh2-1-dev libc-ares-dev libxml2-dev zlib1g-dev libsqlite3-dev libssl-dev libuv1-dev -q -y
-curl -LO --progress-bar https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/binary/aria2c.xz
+curl -LO --progress-bar https://raw.githubusercontent.com/tlwzzy/vpstoolbox/master/binary/aria2c.xz
 xz --decompress aria2c.xz
 cp -f aria2c /usr/local/bin/aria2c
 chmod +x /usr/local/bin/aria2c
@@ -127,7 +127,7 @@ rm -rf *.zip
 cd
 TERM=ansi whiptail --title "安装中" --infobox "拉取全自动Aria2上传脚本中..." 7 68
 cd /etc/aria2/
-curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/autoupload.sh
+curl -LO https://raw.githubusercontent.com/tlwzzy/vpstoolbox/master/install/autoupload.sh
 chmod +x /etc/aria2/autoupload.sh
 }
 
